@@ -1,3 +1,8 @@
 streamlit
-ffmpegfluidsynth
-ffmpeg
+music21
+pretty_midi
+midiutil
+numpy
+mido
+soundfile
+requests
