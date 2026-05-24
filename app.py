@@ -3,6 +3,9 @@ from theory.chords import get_available_chords
 from theory.genres import GENRE_PROGRESSIONS
 from audio.arranger import create_band_midi
 from audio.render import render_wav
+from setup_soundfont import ensure_soundfont
+
+ensure_soundfont()
 
 st.set_page_config(
     page_title="Guitar Practice Tool",
