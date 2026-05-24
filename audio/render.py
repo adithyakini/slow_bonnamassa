@@ -9,7 +9,7 @@ def render_wav():
     command = [
         "fluidsynth",
         "-ni",
-        "soundfonts/GeneralUser-GS.sf2",
+        "soundfonts/VintageDreamsWaves-v2.sf2",
         "generated/output.mid",
         "-F",
         "generated/output.wav",
@@ -27,6 +27,4 @@ def render_wav():
     print(result.stderr)
 
     if result.returncode != 0:
-        raise Exception(
-            f"FluidSynth failed:\n{result.stderr}"
-        )
+        raise Exception(result.stderr)
