@@ -1,1 +1,9 @@
-
+streamlit
+music21
+pretty_midi
+midiutil
+pyfluidsynth
+pydub
+numpy
+mido
+soundfile
